@@ -1,0 +1,9 @@
+CREATE DATABASE db_samplesql;
+
+USE db_samplesql;
+
+CREATE TABLE samplevalue (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sensor_value VARCHAR(255),
+    novalue INT
+);
